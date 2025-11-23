@@ -4,7 +4,7 @@
 export const validationRules = [
   {
     id: "age-min-18",
-    field: "age",
+    field: "client.personal.age",
     type: "business",
     operator: "gte",
     value: 18,

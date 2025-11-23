@@ -19,10 +19,12 @@ const pretty = (value: unknown) => {
 
 const ValidationPage: React.FC = () => {
   const [dataText, setDataText] = useState(
-    "{\n  \"age\": 17,\n  \"email\": \"test@example.com\"\n}"
+    //"{\n  \"age\": 17,\n  \"email\": \"test@example.com\"\n}"
+    "{\n  \n}"
   );
   const [rulePrompt, setRulePrompt] = useState(
-    "Age must be at least 18 and email must be a valid email address."
+    //"Age must be at least 18 and email must be a valid email address."
+    ""
   );
   const [useAI, setUseAI] = useState(true);
 
