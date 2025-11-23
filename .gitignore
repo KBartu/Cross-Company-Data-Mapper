@@ -1,0 +1,129 @@
+# =========================================
+# OS FILES
+# =========================================
+.DS_Store
+Thumbs.db
+
+# =========================================
+# PYTHON
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+.Python
+*.sqlite3
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python environment settings
+*.swp
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.cache/
+pytest_cache/
+
+# Local dev configs
+*.env
+.env.*
+!.env.example
+
+# =========================================
+# NODE.JS / JAVASCRIPT
+# =========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# Coverage
+coverage/
+*.lcov
+
+# Build outputs
+dist/
+build/
+.temp/
+.tmp/
+.cache/
+.eslintcache
+
+# =========================================
+# REACT / FRONTEND FRAMEWORKS
+# =========================================
+# React build outputs
+/.next/
+/out/
+/.react-cache/
+.vite/
+vite.config.ts.timestamp*
+
+# Production build
+/build
+
+# Testing
+coverage/
+storybook-static/
+
+# =========================================
+# EDITOR & TOOLING
+# =========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# JetBrains
+.idea/
+
+# =========================================
+# DOCKER
+# =========================================
+docker-compose.override.yml
+*.pid
+
+# =========================================
+# MISC
+# =========================================
+*.bak
+*.tmp
+*.temp
+*.log
+*.zip
+*.tar
+*.gz
+*.orig
